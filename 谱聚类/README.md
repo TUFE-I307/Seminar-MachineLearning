@@ -41,8 +41,8 @@
 ![](http://latex.codecogs.com/gif.latex?=\left(\left|C_{1}\right|+\left|C_{2}\right|\right)\left(\frac{1}{\left|C_{1}\right|}+\frac{1}{\left|C_{2}\right|}\right)\sum_{C_{1},C_{2}}a_{ij})  
 ![](http://latex.codecogs.com/gif.latex?=n\left(\frac{1}{\left|C_{1}\right|}+\frac{1}{\left|C_{2}\right|}\right)bridge(C_{1},C_{2}))  
 其中![](http://latex.codecogs.com/gif.latex?\sum_{C_{1},C_{2}}a_{ij})表示![](http://latex.codecogs.com/gif.latex?i)在![](http://latex.codecogs.com/gif.latex?C_{1})中、![](http://latex.codecogs.com/gif.latex?j)在![](http://latex.codecogs.com/gif.latex?C_{2})中。应当注意的是，![](http://latex.codecogs.com/gif.latex?f)具有两个性质  
-+ ![](http://latex.codecogs.com/gif.latex?\sum_{i=1}^{n}f_{i}=\sum_{C_{1}}f_{i}+\sum_{C_{2}}f_{i}=\left|C_{1}\right|\cdot\sqrt{\frac{\left|C_{2}\right|}{\left|C_{1}\right|}}-\left|C_{2}\right|\cdot\sqrt{\frac{\left|C_{2}\right|}{\left|C_{1}\right|}}=0)  
-+ ![](http://latex.codecogs.com/gif.latex?\left||f\right||_{2}=\sum_{i=1}^{n}f_{i}^{2}=\sum_{C_{1}}\frac{\left|C_{2}\right|}{\left|C_{1}\right|}+\sum_{C_{2}}\frac{\left|C_{1}\right|}{\left|C_{2}\right|}=\left|C_{2}\right|+\left|C_{1}\right|=n)  
+**性质1：**  ![](http://latex.codecogs.com/gif.latex?\sum_{i=1}^{n}f_{i}=\sum_{C_{1}}f_{i}+\sum_{C_{2}}f_{i}=\left|C_{1}\right|\cdot\sqrt{\frac{\left|C_{2}\right|}{\left|C_{1}\right|}}-\left|C_{2}\right|\cdot\sqrt{\frac{\left|C_{2}\right|}{\left|C_{1}\right|}}=0)  
+**性质2：**  ![](http://latex.codecogs.com/gif.latex?\left||f\right||_{2}=\sum_{i=1}^{n}f_{i}^{2}=\sum_{C_{1}}\frac{\left|C_{2}\right|}{\left|C_{1}\right|}+\sum_{C_{2}}\frac{\left|C_{1}\right|}{\left|C_{2}\right|}=\left|C_{2}\right|+\left|C_{1}\right|=n)  
 即![](http://latex.codecogs.com/gif.latex?f^{T}\cdot\textbf{1}=0)且![](http://latex.codecogs.com/gif.latex?\left||f\right||_{2}=n)  
 根据**复杂网络社区结构**的定义————“社区内节点联系紧密，社区间节点联系稀疏”，社区划分应当满足：  
 1) 最优的社区结构应当使得![](http://latex.codecogs.com/gif.latex?bridge(C_{1},C_{2}))尽可能小；  
