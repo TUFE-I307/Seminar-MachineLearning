@@ -50,4 +50,4 @@
 综上所述，要找到最优的社区划分，即找到向量![](http://latex.codecogs.com/gif.latex?f=argminf^{T}\textbf{L}f)且满足![](http://latex.codecogs.com/gif.latex?f^{T}\cdot\textbf{1}=0)与![](http://latex.codecogs.com/gif.latex?\left||f\right||_{2}=n)。  
 由于一个连同图G的拉普拉斯矩阵![](http://latex.codecogs.com/gif.latex?\textbf{L})是个半正定矩阵，![](http://latex.codecogs.com/gif.latex?r(\textbf{L})=n-1)，且![](http://latex.codecogs.com/gif.latex?\textbf{L1}=0)，其中![](http://latex.codecogs.com/gif.latex?\textbf{1}=(1,1,...,1))不满足![](http://latex.codecogs.com/gif.latex?f)的两个性质，所以![](http://latex.codecogs.com/gif.latex?f)即为![](http://latex.codecogs.com/gif.latex?\textbf{L})的第二小特征值对应的特诊向量，即**Fiedler向量**。  
 ## Reference
-[Luxburg U V. A tutorial on spectral clustering[J]. Statistics and Computing, 2007, 17(4): 395-416.](https://link.springer.com/article/10.1007/s11222-007-9033-z)
+[Luxburg U V. A tutorial on spectral clustering[J]. Statistics and Computing, 2007, 17(4): 395-416.](https://arxiv.org/abs/0711.0189)
